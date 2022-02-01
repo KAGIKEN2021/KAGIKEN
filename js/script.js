@@ -72,6 +72,7 @@ bar.animate(1.0, function () {//バーを描画する割合を指定します 1.
 		$('body').addClass('appear');//フェードアウト後bodyにappearクラス付与
 
 		EachTextAnimeControl()
+		fadeAnime()
 	});
 	//=====ここまでローディングエリア（splashエリア）を0.8秒でフェードアウトした後に動かしたいJSをまとめる
 
